@@ -1,0 +1,61 @@
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+  color: #333;
+}
+
+.App h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* Card container */
+.office-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+  transition: box-shadow 0.3s ease;
+}
+
+.office-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.office-card h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.4rem;
+}
+
+/* Office image */
+.office-image {
+  display: block;
+  margin: 0 auto 16px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Rent text colors */
+.rent-red {
+  color: red;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.rent-green {
+  color: green;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+/* Address/detail text */
+.office-details {
+  margin: 4px 0;
+  line-height: 1.4;
+}
