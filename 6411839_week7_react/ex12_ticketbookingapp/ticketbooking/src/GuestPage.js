@@ -9,6 +9,9 @@ function GuestPage({ onLogin }) {
         <li>Flight 101 - Chennai to Delhi</li>
         <li>Flight 202 - Mumbai to Bangalore</li>
         <li>Flight 303 - Kolkata to Hyderabad</li>
+        <li>Flight 404 - Pune to Chennai</li>
+        <li>Flight 505 - Delhi to Mumbai</li> 
+        <li>Flight 606 - Bangalore to Kolkata</li>
       </ul>
       <button onClick={onLogin}>Login to Book</button>
     </div>
